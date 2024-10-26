@@ -2,7 +2,7 @@ body{
     background-color: #d0dbf8;
 }
 menu{
-    background-color: rgba(0, 0, 0, 0.425);/**Definir a cor de fundo de um elemento(nesse caso, a do fundo da tela)**/
+    background-color: rgba(0, 128, 0, 0.425);/**Definir a cor de fundo de um elemento(nesse caso, a do fundo da tela)**/
     padding: 10px;/**Add espaço ao redor do conteúdo do menu**/
     text-align: center;/**Alinhamento do texto**/
     display: flex;/**Usa um layout flexível para alinhar os elementos**/
@@ -36,7 +36,7 @@ menu{
 
 .caixa1{
     padding: 15px;
-    background-color: gray;
+    background-color: green;
     margin: 30px;
     display: flex;
     align-items: center;

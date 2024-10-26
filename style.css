@@ -2,10 +2,43 @@
     background-color: #d0dbf8;
  }
  menu{
-    background-color: #260d61;
+    background-color: rgba(137, 43, 226, 0.425);
     padding: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 60px;
+    height: 75px;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 50%;
+    margin-left: 2%;
  }
+ .menu-itens{
+   color: white;
+ }
+ .menu-itens:hover{
+   /*Quando colocarmos o mouse sobre os elementos iremos:*/
+   background-color: #d0dbf8;/*Trocar a cor de fundo*/
+   color: black;/*A cor do texto*/
+   width: 100px;/*Ajustaremos a largura do elemento*/
+   padding: 15px 25px;/*A distância do conteúdo*/
+   border-radius: 8px;/*Arredondar as bordas de um elemento*/
+   text-decoration: none;
+}
+.menu-itens{
+   color: white;/**Define a cor do texto**/
+   text-decoration: none;/**Retira o traço de link da palavra**/
+   padding: 15px 25px;
+   font-size: 18px;/**Define o tamanho do texto**/
+   display: inline-block;/**Deixa o item como o bloco em uma linha**/
+}
+footer{
+   background-color: black;
+   height: 50px;
+   color: aliceblue;
+   justify-items: center;
+   padding-top: 1%;
+   margin-bottom: 0%;
+}
