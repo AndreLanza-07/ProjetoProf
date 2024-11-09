@@ -42,3 +42,27 @@ footer{
    padding-top: 1%;
    margin-bottom: 0%;
 }
+table{
+   border: 1px solid;
+   border-color: rebeccapurple;
+}
+thead{
+   background-color: blueviolet;
+   color: white;
+   height: 15px;
+   border: white solid;
+}
+th{
+   width: 160px;
+  text-align: center;
+   align-items: center;
+   border: white solid;
+}
+tbody{
+   background-color: rgba(137, 43, 226, 0.555);
+}
+td{
+   text-align: center;
+   border: 1px solid;
+   border:rgba(137, 43, 226, 0.425)
+}
